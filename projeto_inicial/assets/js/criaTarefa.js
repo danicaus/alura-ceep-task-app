@@ -35,7 +35,7 @@ export const coletaInputs = (evento) => {
 
 export const MontaTarefa = ({novaTarefa, data, concluida}, id) => {
     const tarefa = document.createElement('li')
-    const conteudo = `<p class="content">${data} ${novaTarefa}</p>`
+    const conteudo = `<p class="content">${novaTarefa}</p>`
     
     if(concluida){
         tarefa.classList.add('done')
