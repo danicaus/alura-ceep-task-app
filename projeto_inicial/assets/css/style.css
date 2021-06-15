@@ -131,6 +131,7 @@ body {
   outline: none;
   border-radius: 2px;
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .task.done .check-button {
